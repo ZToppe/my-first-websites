@@ -537,22 +537,22 @@ footer .social img {
     }
 
     .btn-primary {
-        font-size: 16px;
-        padding: 10px 20px;
+        font-size: 32px;
+        padding: 20px 30px;
     }
 
     .products h2, 
     .about h2, 
     .contact h2 {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .product-card h3 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .product-card p {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .contact-form button {
