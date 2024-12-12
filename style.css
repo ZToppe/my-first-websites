@@ -529,6 +529,16 @@ footer .social img {
         font-size: 28px;
     }
 
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: none; /* Hidden by default */
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
+
     .hero-overlay p {
         font-size: 16px;
     }
