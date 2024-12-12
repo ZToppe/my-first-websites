@@ -53,14 +53,14 @@ nav {
     display: flex;
 }
 
-.nav-links li {
-    margin-left: 20px;
+nav ul li {
+    margin-right: 20px;
 }
 
-.nav-links li a {
-    color: #ecf0f1;
+nav ul li a {
     text-decoration: none;
-    font-weight: 500;
+    color: white;
+    font-weight: bold;
     transition: color 0.3s ease;
 }
 
