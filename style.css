@@ -27,17 +27,14 @@ body {
 
 /* Header Styling */
 header {
+    background-color: #070e16;
+    padding: 20px 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: #ecf0f1;
-    padding: 20px 0;
-    position: fixed;
-    width: 100%;
+    justify-content: space-between;
+    position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 header .logo {
