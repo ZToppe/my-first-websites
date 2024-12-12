@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Z Necklaces</title>
+    <link rel="stylesheet" href="Style.css">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Z Necklaces</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" target ="_blank">Home</a></li>
+                    <li><a href="products.html" target ="_blank">Products</a></li>
+                    <li><a href="aboutus.html" target ="_blank">About Us</a></li>
+                    <li><a href="contactus.html" target ="_blank">Contact Us</a></li>
+                </ul>
+                <div class="bike">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ZToppe's Necklace Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript for bike Menu -->
+    <script>
+        const bike = document.querySelector('.bike');
+        const navLinks = document.querySelector('.nav-links');
+
+        bike.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            bike.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
